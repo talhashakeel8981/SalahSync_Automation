@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  tests:
+    build: .
+    container_name: salahsync_tests
+
+    volumes:
+      - .:/app
+
+    environment:
+      - PYTHONPATH=/app
