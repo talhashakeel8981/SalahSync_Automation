@@ -41,3 +41,4 @@ class OnboardingPage:
             )
         )
         next_btn.click()
+        print("button clicked")
