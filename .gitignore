@@ -1,0 +1,5 @@
+actions-runner/
+venv/
+__pycache__/
+*.tar.gz
+*.apk
