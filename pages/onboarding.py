@@ -37,7 +37,7 @@ class OnboardingPage:
         wait = WebDriverWait(self.driver, 10)
         next_btn = wait.until(
             EC.element_to_be_clickable(
-                (By.XPATH, '//android.widget.TextView[@text="Next"]')
+                # (By.XPATH, '//android.widget.TextView[@text="Next"]')
             )
         )
         next_btn.click()
